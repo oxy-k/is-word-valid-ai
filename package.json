@@ -1,0 +1,9 @@
+{
+  "name": "is-word-ai",
+  "version": "1.0.0",
+  "description": "Check if a string is a valid word using AI",
+  "main": "index.js",
+  "repository": "https://github.com/oxy-k/is-word-ai.git",
+  "author": "oxy-k",
+  "license": "MIT"
+}
