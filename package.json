@@ -1,9 +1,19 @@
 {
-  "name": "is-word-ai",
+  "name": "is-word-valid-ai",
   "version": "1.0.0",
   "description": "Check if a string is a valid word using AI",
   "main": "index.js",
-  "repository": "https://github.com/oxy-k/is-word-ai.git",
+  "repository": "https://github.com/oxy-k/is-word-valid-ai",
   "author": "oxy-k",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "dotenv": "^16.4.5",
+    "eslint": "9.x",
+    "globals": "^15.9.0"
+  },
+  "dependencies": {
+    "openai": "^4.55.4"
+  }
 }
