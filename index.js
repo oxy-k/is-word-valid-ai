@@ -2,7 +2,7 @@ import OpenAI from 'openai'
 
 const client = new OpenAI()
 
-export async function main(word, options) {
+export async function isWordValid(word, options) {
     const language = options.language || 'English'
     const params = {
         messages: [
@@ -15,8 +15,8 @@ export async function main(word, options) {
                     'in the form of a JSON object with the following key/value pairs: ' +
                     'type: include what type of word it is here; the options are: a noun, an adjective, a verb, ' +
                     'an adverb, a pronoun, a preposition, a conjunction, or a determiner? ' +
-                    'isValid: true or false, ' +
-                    'isPlural: true or false, ' +
+                    'isValid: true or false, whether the word is valid ' +
+                    'isPlural: true or false, whether the word is in plural' +
                     'pluralValue: the plural form of the word if applicable, ' +
                     'singularValue: the singular form of the word if applicable, ' +
                     'description: description of what the word refers to,' +

@@ -20,9 +20,9 @@ OPENAI_API_KEY={YOUR_API_KEY_HERE}
 ## Example usage
 
 ```javascript
-import { main } from 'is-word-valid-ai' 
+import { isWordValid } from 'is-word-valid-ai' 
 
-const response = await main('tomato', {
+const response = await isWordValid('tomato', {
     key: process.env.OPENAI_MODEL,
     model: 'gpt-4o-mini',
     language: 'English'
