@@ -36,7 +36,7 @@ Response:
 {
   "type": "noun",
   "isValid": true,
-  "isPlural": true,
+  "isPlural": false,
   "pluralValue": "tomatoes",
   "singularValue": "tomato",
   "description": "A round, red or yellow fruit that is used as a vegetable in cooking."
